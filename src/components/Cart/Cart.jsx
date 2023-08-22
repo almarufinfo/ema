@@ -2,9 +2,7 @@ import React from 'react';
 import './Cart.css';
 
 
-
 const Cart = ({ cart }) => {
-
 
     /*
 option-1: const Cart = ({cart}) => {
@@ -51,5 +49,4 @@ option-1: const Cart = ({cart}) => {
         </div>
     );
 };
-
 export default Cart;

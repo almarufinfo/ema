@@ -14,7 +14,6 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, []);
 
-
     const handleAddToCart = (product) => {
         // cart.push(product); 
 
@@ -39,6 +38,7 @@ const Shop = () => {
     useEffect(() => {
         const storeCart = getShoppingCart();
         const saveCart = [];
+
         //step-1: get id of the addedProduct
 
         for (const id in storeCart) {
@@ -53,7 +53,6 @@ const Shop = () => {
                 saveCart.push(addedProduct)
             }
             console.log('added Product', addedProduct)
-
         }
         // step-5: set the cart
         setCart(saveCart);
