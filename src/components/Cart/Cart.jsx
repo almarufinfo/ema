@@ -49,4 +49,5 @@ option-1: const Cart = ({cart}) => {
         </div>
     );
 };
-export default Cart;
+
+export default Cart; 
